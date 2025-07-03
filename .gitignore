@@ -1,0 +1,9 @@
+cmd/server/server
+cmd/client/client
+
+*.db
+*.log
+*.test
+*.out
+
+config.json
