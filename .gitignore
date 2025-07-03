@@ -5,5 +5,4 @@ cmd/client/client
 *.log
 *.test
 *.out
-
-config.json
+*.yaml
