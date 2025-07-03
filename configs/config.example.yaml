@@ -1,0 +1,15 @@
+app:
+  secret_key: "your_secure_secret_key_here"
+  token_exp: 120
+
+logger:
+  log_level: "info"
+
+grpc:
+  grpc_address: ":3200"
+
+dsn:
+  database_dsn: "postgres://postgres:postgres@localhost:5432/postgres?sslmode=disable"
+  migration_version: 1
+  connect_timeout: 60 # seconds
+  query_timeout: 10 # seconds
